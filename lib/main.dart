@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 
+//metodo main, inicializa a aplicação
 void main() => runApp(new MyApp());
 
+//nossa classe que extende o StateLessWidget,
+//permite instanciar os nossos elementos
+// e os dados presentes nela são estáticos
 class MyApp extends StatelessWidget {
 
+  //responsável por construir a widget three
+  //e sua hierarquia no momento que a aplicação é inicializada
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
